@@ -1,0 +1,13 @@
+footer {
+    height: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 720px){
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

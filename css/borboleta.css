@@ -1,0 +1,18 @@
+.borboleta {
+    position: absolute;
+    width: 60px;
+    top: 90vh;
+    left: 90vw;
+    filter: brightness(20%);
+    animation: voar 20s linear infinite;
+    z-index: -1;
+}
+
+@keyframes voar {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-90vw, -90vh);
+    }
+}
